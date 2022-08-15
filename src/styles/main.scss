@@ -1,0 +1,23 @@
+@import "./colour.scss";
+
+html {
+    min-width: 200px;
+    min-height: 150px;
+}
+
+body {
+    padding: 6px;
+    margin: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $mine-shaft-dark;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: $porcelain;
+    }
+}

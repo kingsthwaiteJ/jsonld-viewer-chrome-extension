@@ -1,0 +1,14 @@
+.is-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-vertically-centered {
+  display: flex;
+  align-items: center;
+}
+
+.is-expanded {
+  width: 100% !important;
+}
