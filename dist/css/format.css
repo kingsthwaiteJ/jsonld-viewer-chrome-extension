@@ -12,3 +12,43 @@
 .is-expanded {
   width: 100% !important;
 }
+
+.is-paddingless {
+  padding: 0px;
+}
+
+.has-padding-small {
+  padding: 4px;
+}
+
+.has-padding {
+  padding: 6px;
+}
+
+.has-padding-large {
+  padding: 10px;
+}
+
+.has-padding-huge {
+  padding: 20px;
+}
+
+.is-marginless {
+  margin: 0px;
+}
+
+.has-margin-small {
+  margin: 2px;
+}
+
+.has-margin {
+  margin: 4px;
+}
+
+.has-margin-large {
+  margin: 8px;
+}
+
+.has-margin-huge {
+  margin: 12px;
+}

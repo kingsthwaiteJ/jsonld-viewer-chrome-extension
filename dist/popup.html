@@ -6,13 +6,27 @@
 		<link rel="stylesheet" type="text/css" href="/css/format.css" />
 		<link rel="stylesheet" type="text/css" href="/css/font.css" />
 		<link rel="stylesheet" type="text/css" href="/css/button.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+		<!-- <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
+		<script defer src="/your-path-to-fontawesome/js/solid.js"></script>
+		<script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script> -->
 	</head>
 	<body>
 		<h1 class="is-centered">JSON-LD Viewer</h1>
-		<div id="jsonld-viewer"></div>
+		<div id="jsonld-viewer-container">
+			<div id="jsonld-viewer"></div>
+		</div>
 		<script src="js/popup.js"></script>
+		<div id="buttonContainer" class="is-centered has-padding-large">
+			<button id="openInNewTab" disabled>
+				Open in new tab <i class="fa-solid fa-external-link-alt"></i>
+			</button>
+			<button id="copyToClipboard" class="is-primary">
+				Copy JSON-LD <i class="fa-solid fa-clipboard"></i>
+			</button>
+		</div>
 		<div class="is-centered">
-			<button id="openInNewTab">Open in new tab</button>
+			<p style="margin-top: 0px; margin-bottom: 10px;">You can read more about JSON-LD <a href="https://json-ld.org/" target="_blank">here</a>.</p>
 		</div>
 	</body>
 </html>

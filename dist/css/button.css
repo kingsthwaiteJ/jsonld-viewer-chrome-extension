@@ -1,14 +1,57 @@
+button + button {
+  margin-left: 8px;
+}
+
 button {
   height: auto;
-  min-height: 30px;
+  min-height: 20px;
   width: auto;
   min-width: 30px;
   outline: none;
   border: none;
   border-radius: 4px;
+  padding: 2px 6px;
   cursor: pointer;
 }
+button.is-small {
+  height: 20px;
+}
+button.is-large {
+  height: 30px;
+}
+button:not(.is-small):not(.is-large) {
+  height: 24px;
+}
+button:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+button.is-primary {
+  background-color: #0047AB !important;
+  color: #DEDEDE !important;
+}
+button.is-primary:focus {
+  box-shadow: 0 0 0 0.125em rgba(0, 71, 171, 0.25) !important;
+}
 
-button.current {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+@media (prefers-color-scheme: dark) {
+  button {
+    color: #DEDEDE;
+    background-color: #363636;
+  }
+  button:focus {
+    box-shadow: 0 0 0 0.125em rgba(54, 54, 54, 0.25);
+  }
+}
+@media (prefers-color-scheme: light) {
+  button {
+    color: #484848;
+    background-color: #EEEEEE;
+  }
+  button:focus {
+    box-shadow: 0 0 0 0.125em rgba(238, 238, 238, 0.25);
+  }
+}
+#openInNewTab, #copyToClipboard {
+  width: 130px;
 }

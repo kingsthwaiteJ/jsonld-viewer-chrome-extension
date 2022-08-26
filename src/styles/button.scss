@@ -1,14 +1,69 @@
+@import "./variables.scss";
+
+button + button {
+    margin-left: $margin-large;
+}
+
 button {
     height: auto;
-    min-height: 30px;
+    min-height: 20px;
     width: auto;
     min-width: 30px;
     outline: none;
     border: none;
     border-radius: 4px;
+    padding: 2px 6px;
     cursor: pointer;
+
+    &.is-small {
+        height: 20px;
+    }
+
+    &.is-large {
+        height: 30px;
+    }
+
+    &:not(.is-small):not(.is-large) {
+        height: 24px;
+    }
+
+    &:disabled {
+        opacity: 0.5 !important;
+        cursor: not-allowed !important;
+    }
+
+    &.is-primary {
+        background-color: $cobalt !important;
+        color: $alto-light !important;
+
+        &:focus {
+            box-shadow: 0 0 0 0.125em rgba($cobalt, 0.25) !important;
+        }
+    }
 }
 
-button.current {
-    box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+@media (prefers-color-scheme: dark) {
+    button {
+        color: $alto-light;
+        background-color: $mine-shaft-light;
+
+        &:focus {
+            box-shadow: 0 0 0 0.125em rgba($mine-shaft-light, 0.25);
+        }
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    button {
+        color: $tundora;
+        background-color: $gallery;
+
+        &:focus {
+            box-shadow: 0 0 0 0.125em rgba($gallery, 0.25);
+        }
+    }
+}
+
+#openInNewTab, #copyToClipboard {
+    width: 130px;
 }

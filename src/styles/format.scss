@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .is-centered {
     display: flex;
     justify-content: center;
@@ -11,4 +13,44 @@
 
 .is-expanded {
     width: 100% !important;
+}
+
+.is-paddingless {
+    padding: $paddingless;
+}
+
+.has-padding-small {
+    padding: $padding-small;
+}
+
+.has-padding {
+    padding: $padding;
+}
+
+.has-padding-large {
+    padding: $padding-large;
+}
+
+.has-padding-huge {
+    padding: $padding-huge;
+}
+
+.is-marginless {
+    margin: $marginless;
+}
+
+.has-margin-small {
+    margin: $margin-small;
+}
+
+.has-margin {
+    margin: $margin;
+}
+
+.has-margin-large {
+    margin: $margin-large;
+}
+
+.has-margin-huge {
+    margin: $margin-huge;
 }

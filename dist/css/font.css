@@ -5,6 +5,8 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 20px;
   margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
 }
 
 h2 {
@@ -27,9 +29,21 @@ p, span {
   h1, h2, h3, h4, h5, h6, p, span {
     color: #DEDEDE;
   }
+  a {
+    color: #99b5dd;
+  }
+  a:visited {
+    opacity: 0.4;
+  }
 }
 @media (prefers-color-scheme: light) {
   h1, h2, h3, h4, h5, h6, p, span {
     color: #484848;
+  }
+  a {
+    opacity: 0.7;
+  }
+  a:visited {
+    opacity: 0.6;
   }
 }

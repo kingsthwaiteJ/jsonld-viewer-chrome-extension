@@ -1,4 +1,4 @@
-@import "./colour.scss";
+@import "./variables.scss";
 
 h1, h2, h3, h4 {
     font-family: "Open-Sans", Arial, Helvetica, sans-serif;
@@ -6,7 +6,9 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: $paddingless;
+    margin-bottom: $marginless;
+    padding: $padding-large;
 }
 
 h2 {
@@ -29,10 +31,26 @@ p, span {
     h1, h2, h3, h4, h5, h6, p, span {
         color: $alto-light;
     }
+
+    a {
+        color: $cobalt-link;
+    
+        &:visited {
+            opacity: 0.4;
+        }
+    }
 }
 
 @media (prefers-color-scheme: light) {
     h1, h2, h3, h4, h5, h6, p, span {
         color: $tundora;
+    }
+
+    a {
+        opacity: 0.7;
+    
+        &:visited {
+            opacity: 0.6;
+        }
     }
 }

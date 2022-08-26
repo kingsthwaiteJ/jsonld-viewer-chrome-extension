@@ -109,8 +109,15 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
+// Import Dependencies
+ // Initialise DOM references
 
 var viewerDiv = document.getElementById('jsonld-viewer');
+var viewerContainer = document.getElementById('jsonld-viewer-container');
+/**
+ * Retrieves the JSON-LD content of the active page if any is available
+ * @returns The JSON-LD content of the active page or `null`
+ */
 
 function retrieveJsonld() {
   console.log('Retrieving jsonld content ...');
@@ -122,18 +129,29 @@ function retrieveJsonld() {
     return null;
   }
 }
+/**
+ * Loads the active page's JSON-LD into the popup and initialises the JSON viewer
+ * @param tabID The ID of the active tab
+ * @param theme The browser's default theme
+ */
+
 
 function loadJsonld(_x, _x2) {
   return _loadJsonld.apply(this, arguments);
 }
+/**
+ * Retrieves the active tab to be referenced when loading the JSON-LD content
+ * @returns The active tab
+ */
+
 
 function _loadJsonld() {
-  _loadJsonld = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee(tabID, theme) {
-    return _regeneratorRuntime().wrap(function _callee$(_context) {
+  _loadJsonld = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2(tabID, theme) {
+    return _regeneratorRuntime().wrap(function _callee2$(_context2) {
       while (1) {
-        switch (_context.prev = _context.next) {
+        switch (_context2.prev = _context2.next) {
           case 0:
-            _context.next = 2;
+            _context2.next = 2;
             return chrome.scripting.executeScript({
               target: {
                 tabId: tabID
@@ -156,9 +174,35 @@ function _loadJsonld() {
                       }); // Open the JSON-LD content in a new page if it's available, otherwise hide the button
 
                       var openButton = document.getElementById("openInNewTab");
-                      openButton === null || openButton === void 0 ? void 0 : openButton.addEventListener('click', function () {
-                        var newTab = window.open("data:text/json," + encodeURIComponent(jsonld), "_blank");
-                        newTab === null || newTab === void 0 ? void 0 : newTab.focus();
+                      openButton === null || openButton === void 0 ? void 0 : openButton.addEventListener('click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
+                        var blob, url;
+                        return _regeneratorRuntime().wrap(function _callee$(_context) {
+                          while (1) {
+                            switch (_context.prev = _context.next) {
+                              case 0:
+                                // const newTab = window.open("data:text/json," + encodeURIComponent(jsonld), "_blank");
+                                // newTab?.focus();
+                                blob = new Blob([jsonld], {
+                                  type: 'application/json'
+                                });
+                                url = window.URL.createObjectURL(blob);
+                                window.open(url, '_blank');
+
+                              case 3:
+                              case "end":
+                                return _context.stop();
+                            }
+                          }
+                        }, _callee);
+                      })));
+                      var copyButton = document.getElementById('copyToClipboard');
+                      var copyButtonContent = copyButton.innerHTML;
+                      copyButton === null || copyButton === void 0 ? void 0 : copyButton.addEventListener('click', function () {
+                        navigator.clipboard.writeText(jsonld);
+                        copyButton.innerHTML = 'Copied <i class="fa-solid fa-check"></i>';
+                        setTimeout(function () {
+                          copyButton.innerHTML = copyButtonContent;
+                        }, 1500);
                       });
                     } else {
                       throw 'JSON-LD not available';
@@ -172,27 +216,32 @@ function _loadJsonld() {
               } catch (error) {
                 console.log(error);
 
-                if (viewerDiv) {
-                  viewerDiv.innerHTML = '<p class="is-centered">No JSON-LD available on this page.</p>';
+                if (viewerContainer) {
+                  viewerContainer.style.marginTop = "20px";
+                  viewerContainer.style.marginBottom = "10px";
                 }
 
-                var _openButton = document.getElementById("openInNewTab");
+                if (viewerDiv) {
+                  viewerDiv.innerHTML = '<p class="is-centered">JSON-LD is not available on this page.</p>';
+                }
 
-                if (_openButton) {
-                  _openButton.style.display = "none";
+                var buttonDiv = document.getElementById("buttonContainer");
+
+                if (buttonDiv) {
+                  buttonDiv.style.display = "none";
                 }
               }
             });
 
           case 2:
-            return _context.abrupt("return", _context.sent);
+            return _context2.abrupt("return", _context2.sent);
 
           case 3:
           case "end":
-            return _context.stop();
+            return _context2.stop();
         }
       }
-    }, _callee);
+    }, _callee2);
   }));
   return _loadJsonld.apply(this, arguments);
 }
@@ -200,34 +249,38 @@ function _loadJsonld() {
 function getCurrentTab() {
   return _getCurrentTab.apply(this, arguments);
 }
+/**
+ * Initialisation function that's called when the popup window is triggered by the user
+ */
+
 
 function _getCurrentTab() {
-  _getCurrentTab = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
+  _getCurrentTab = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
     var queryOptions, _yield$chrome$tabs$qu, _yield$chrome$tabs$qu2, tab;
 
-    return _regeneratorRuntime().wrap(function _callee2$(_context2) {
+    return _regeneratorRuntime().wrap(function _callee3$(_context3) {
       while (1) {
-        switch (_context2.prev = _context2.next) {
+        switch (_context3.prev = _context3.next) {
           case 0:
             queryOptions = {
               active: true,
               lastFocusedWindow: true
             };
-            _context2.next = 3;
+            _context3.next = 3;
             return chrome.tabs.query(queryOptions);
 
           case 3:
-            _yield$chrome$tabs$qu = _context2.sent;
+            _yield$chrome$tabs$qu = _context3.sent;
             _yield$chrome$tabs$qu2 = _slicedToArray(_yield$chrome$tabs$qu, 1);
             tab = _yield$chrome$tabs$qu2[0];
-            return _context2.abrupt("return", tab);
+            return _context3.abrupt("return", tab);
 
           case 7:
           case "end":
-            return _context2.stop();
+            return _context3.stop();
         }
       }
-    }, _callee2);
+    }, _callee3);
   }));
   return _getCurrentTab.apply(this, arguments);
 }
@@ -237,29 +290,29 @@ function run() {
 }
 
 function _run() {
-  _run = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
+  _run = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee4() {
     var darkMode, currentTab;
-    return _regeneratorRuntime().wrap(function _callee3$(_context3) {
+    return _regeneratorRuntime().wrap(function _callee4$(_context4) {
       while (1) {
-        switch (_context3.prev = _context3.next) {
+        switch (_context4.prev = _context4.next) {
           case 0:
             // Determine which viewer theme to use
             darkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches; // Load the JSON-LD of the active page
 
-            _context3.next = 3;
+            _context4.next = 3;
             return getCurrentTab();
 
           case 3:
-            currentTab = _context3.sent;
-            _context3.next = 6;
+            currentTab = _context4.sent;
+            _context4.next = 6;
             return loadJsonld(currentTab.id, darkMode ? 'dark' : 'light');
 
           case 6:
           case "end":
-            return _context3.stop();
+            return _context4.stop();
         }
       }
-    }, _callee3);
+    }, _callee4);
   }));
   return _run.apply(this, arguments);
 }
