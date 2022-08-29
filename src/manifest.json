@@ -29,6 +29,6 @@
     "background": {
         "service_worker": "/js/background.js"
     },
-    "permissions": ["storage", "tabs", "activeTab", "scripting"],
+    "permissions": ["tabs", "activeTab", "scripting"],
     "host_permissions": ["*://developer.mozilla.org/*", "*://*/*"]
 }
