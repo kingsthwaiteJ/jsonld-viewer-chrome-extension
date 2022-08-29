@@ -11,3 +11,4 @@ package-lock.json
 
 # built files
 dist
+*.zip
