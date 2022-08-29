@@ -39,8 +39,7 @@ async function loadJsonld(tabID, theme) {
                         new JsonViewer({
                             container: viewerDiv,
                             data: jsonld,
-                            // theme: theme,
-                            theme: 'light',
+                            theme: theme,
                             expand: true
                         });
 
