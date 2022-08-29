@@ -9,5 +9,5 @@ npm-debug.log
 yarn.lock
 package-lock.json
 
-# Backpack build
-build
+# built files
+dist

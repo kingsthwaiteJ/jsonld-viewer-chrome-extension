@@ -1,11 +1,11 @@
 {
     "name": "JSON-LD Viewer",
     "description": "View the JSON-LD content of the active webpage.",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "manifest_version": 3,
 
     "author": "James Kingsthwaite",
-    "version_name": "0.1.2",
+    "version_name": "0.1.3",
 
     "icons": {
         "16": "/icons/jsonld-logo-16x16.png",

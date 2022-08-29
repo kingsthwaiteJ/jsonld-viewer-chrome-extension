@@ -1,8 +1,0 @@
-{
-    "/src/ts/background.ts": "/dist/js/background.js",
-    "/src/ts/popup.ts": "/dist/js/popup.js",
-    "/src/styles/button.css": "/dist/css/button.css",
-    "/src/styles/font.css": "/dist/css/font.css",
-    "/src/styles/format.css": "/dist/css/format.css",
-    "/src/styles/main.css": "/dist/css/main.css"
-}

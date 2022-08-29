@@ -1,3 +1,9 @@
+# 0.1.3 (2022-08-29)
+- Updated build process
+- Added minification + compilation
+- Removed built files
+<br/>
+<br/>
 # 0.1.2 (2022-08-26)
 - Polished popup UI
 - Added icon files to build process

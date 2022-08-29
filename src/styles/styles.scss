@@ -1,4 +1,7 @@
 @import "./variables.scss";
+@import "./button.scss";
+@import "./font.scss";
+@import "./format.scss";
 
 html {
     min-width: 250px;
@@ -18,7 +21,7 @@ body {
     background-color: transparent !important;
 }
 
-.jv-dark-current {
+.jv-dark-current, .jv-light-current {
     padding-left: 15px !important;
     line-height: 20px !important;
 }

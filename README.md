@@ -22,8 +22,8 @@
     <a href="https://github.com/kingsthwaiteJ/jsonld-viewer-chrome-extension"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://chrome.google.com/webstore/detail/microdatajson-ld-sniffer/djgonlcfpeeddedjhpgijdckhgddcfgf">Add to Chrome</a>
-    ·
+    <!-- <a href="https://chrome.google.com/webstore/detail/microdatajson-ld-sniffer/djgonlcfpeeddedjhpgijdckhgddcfgf">Add to Chrome</a>
+    · -->
     <a href="https://github.com/kingsthwaiteJ/jsonld-viewer-chrome-extension/issues">Report Bug</a>
     ·
     <a href="https://github.com/kingsthwaiteJ/jsonld-viewer-chrome-extension/issues">Request Feature</a>
@@ -68,7 +68,7 @@
 ## About The Project
 <br/>
 <div align="center">
-  <img src="public/images/jsonld-viewer-screenshot.png" alt="Example Screenshot" title="Example Screenshot">
+  <img src="public/images/jsonld-viewer-screenshot.PNG" alt="Example Screenshot" title="Example Screenshot">
 </div>
 <br/>
 

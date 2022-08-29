@@ -30,7 +30,6 @@ async function loadJsonld(tabID, theme) {
         func: retrieveJsonld
     }, (injectionResults) => {
         try {
-            console.log(injectionResults);
             if (injectionResults) {
                 if (injectionResults.length > 0) {
                     if (injectionResults[0].result) {
@@ -40,19 +39,9 @@ async function loadJsonld(tabID, theme) {
                         new JsonViewer({
                             container: viewerDiv,
                             data: jsonld,
-                            theme: theme,
+                            // theme: theme,
+                            theme: 'light',
                             expand: true
-                        });
-
-                        // Open the JSON-LD content in a new page if it's available, otherwise hide the button
-                        let openButton = document.getElementById("openInNewTab");
-                        openButton?.addEventListener('click', async () => {
-                            // const newTab = window.open("data:text/json," + encodeURIComponent(jsonld), "_blank");
-                            // newTab?.focus();
-
-                            const blob = new Blob([jsonld], { type: 'application/json' });
-                            const url = window.URL.createObjectURL(blob);
-                            window.open(url, '_blank');
                         });
 
                         let copyButton = document.getElementById('copyToClipboard');
