@@ -72,7 +72,7 @@
 </div>
 <br/>
 
-This Google Chrome Extension was formed through my overuse of checking the JSON-LD content of other websites as well as my own. I had to continuously open Developer Tools, switch to the Elements tab, search for `application/json+ld` and then copy out the JSON-LD content to review in a code editor.
+This Google Chrome Extension was formed through my overuse of checking the JSON-LD content of other websites as well as my own. I had to continuously open Developer Tools, switch to the Elements tab, search for `application/ld+json` and then copy out the JSON-LD content to review in a code editor.
 
 This process grew frustrating with each iteration and I decided to make my life easier by creating this extension that allows you to view the JSON-LD content of a webpage in a popup without needing to open Developer Tools at all. 
 
