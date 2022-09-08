@@ -1,3 +1,7 @@
+# 0.1.4 (2022-09-02)
+- Renamed extension to adhere to Chrome's publishing rules
+<br/>
+<br/>
 # 0.1.3 (2022-08-29)
 - Updated build process
 - Added minification + compilation

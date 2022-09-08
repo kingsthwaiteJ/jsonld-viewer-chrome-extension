@@ -19,6 +19,11 @@
   <p align="center">
     A Google Chrome Extension that displays a preview of the JSON-LD content of the active webpage.
     <br />
+    <br />
+    <a href="https://chrome.google.com/webstore/detail/linked-data-viewer/ignipaconhphdcoflnoplepogdjpkkgc">
+      <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="Logo">
+    </a>
+    <br/>
     <a href="https://github.com/kingsthwaiteJ/jsonld-viewer-chrome-extension"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -216,5 +221,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
 [chrome-url]: chrome://extensions/
-[chrome-extension-url]: https://chrome.google.com/webstore/detail/microdatajson-ld-sniffer/djgonlcfpeeddedjhpgijdckhgddcfgf
+[chrome-extension-url]: https://chrome.google.com/webstore/detail/linked-data-viewer/ignipaconhphdcoflnoplepogdjpkkgc
 [chrome-extension-shield]: https://img.shields.io/chrome-web-store/rating/1?style=for-the-badge
