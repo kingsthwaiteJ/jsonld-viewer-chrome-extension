@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD பார்வையாளர்",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "நகலெடுக்கவும்",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "நகலெடுக்கப்பட்டது!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "JSON-LD பற்றி மேலும் படிக்கலாம்",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "இங்கே",
+        "description": "Label for link to JSON-LD website."
+    }
+}

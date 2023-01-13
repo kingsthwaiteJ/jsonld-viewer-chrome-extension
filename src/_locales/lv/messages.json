@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD skatītājs",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "Kopēt",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "Kopēts!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "Varat lasīt vairāk par JSON-LD",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "šeit",
+        "description": "Label for link to JSON-LD website."
+    }
+}

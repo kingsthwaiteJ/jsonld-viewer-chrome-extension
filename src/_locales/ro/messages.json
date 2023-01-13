@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "Vizualizator JSON-LD",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "Copie",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "Copiat!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "Puteți citi mai multe despre JSON-LD",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "Aici",
+        "description": "Label for link to JSON-LD website."
+    }
+}

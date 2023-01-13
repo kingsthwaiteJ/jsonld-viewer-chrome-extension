@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD వ్యూయర్",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "కాపీ చేయండి",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "కాపీ చేయబడింది!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "మీరు JSON-LD గురించి మరింత చదువుకోవచ్చు",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "ఇక్కడ",
+        "description": "Label for link to JSON-LD website."
+    }
+}

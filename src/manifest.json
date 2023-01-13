@@ -1,11 +1,11 @@
 {
-    "name": "JSON-LD Viewer",
-    "description": "View the JSON-LD content of the active webpage.",
-    "version": "0.1.3",
+    "name": "Linked-Data Viewer",
+    "description": "View the linked-data content of the active webpage.",
+    "version": "0.1.4",
     "manifest_version": 3,
 
     "author": "James Kingsthwaite",
-    "version_name": "0.1.3",
+    "version_name": "0.1.4",
 
     "icons": {
         "16": "/icons/jsonld-logo-16x16.png",
@@ -23,7 +23,7 @@
             "48": "/icons/jsonld-logo-48x48.png",
             "128": "/icons/jsonld-logo-128x128.png"
         },
-        "default_title": "JSON-LD Viewer 🔍",
+        "default_title": "Linked-Data Viewer 🔍",
         "default_popup": "/popup.html"
     },
     "background": {

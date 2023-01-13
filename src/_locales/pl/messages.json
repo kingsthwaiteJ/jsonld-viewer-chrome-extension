@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "Przeglądarka JSON-LD",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "Kopiuj",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "Skopiowane!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "Możesz przeczytać więcej o JSON-LD",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "tutaj",
+        "description": "Label for link to JSON-LD website."
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD Viewer",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "Kopya",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "Kinopya!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "Maaari kang magbasa nang higit pa tungkol sa JSON-LD",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "dito",
+        "description": "Label for link to JSON-LD website."
+    }
+}

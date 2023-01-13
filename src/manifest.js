@@ -1,8 +1,8 @@
 
 module.exports = {
-	name: 'JSON-LD Viewer',
-	version: '0.1.0',
-	description: 'A Google Chrome extension to view the JSON-LD data for the active webpage.',
+	name: 'Linked-Data Viewer',
+	version: '0.1.4',
+	description: 'A Google Chrome extension to view the linked-data data for the active webpage.',
 	author: 'James Kingsthwaite',
 	manifest_version: 3,
 

@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD വ്യൂവർ",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "പകർത്തുക",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "പകർത്തി!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "Sie können mehr über JSON-LD lesen",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "ഇവിടെ",
+        "description": "Label for link to JSON-LD website."
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD 視聴者",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "複写",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "コピーしました！",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "JSON-LD の詳細を読むことができます",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "ここ",
+        "description": "Label for link to JSON-LD website."
+    }
+}

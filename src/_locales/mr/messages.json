@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD दर्शक",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "कॉपी करा",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "कॉपी केले!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "तुम्ही JSON-LD बद्दल अधिक वाचू शकता",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "येथे",
+        "description": "Label for link to JSON-LD website."
+    }
+}

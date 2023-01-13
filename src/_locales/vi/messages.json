@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "Trình xem JSON-LD",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "Sao chép",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "Đã sao chép!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "Bạn có thể đọc thêm về JSON-LD",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "nơi đây",
+        "description": "Label for link to JSON-LD website."
+    }
+}

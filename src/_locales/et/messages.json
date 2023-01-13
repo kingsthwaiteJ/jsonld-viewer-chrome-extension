@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD vaataja",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "Kopeeri",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "Kopeeritud!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "Lisateavet JSON-LD kohta saate lugeda",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "siin",
+        "description": "Label for link to JSON-LD website."
+    }
+}

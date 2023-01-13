@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "מציג JSON-LD",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "עותק",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "מוּעֲתָק!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "אתה יכול לקרוא עוד על JSON-LD",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "כאן",
+        "description": "Label for link to JSON-LD website."
+    }
+}

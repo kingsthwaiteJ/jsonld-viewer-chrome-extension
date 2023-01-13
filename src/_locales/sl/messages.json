@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "Pregledovalnik JSON-LD",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "Kopirati",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "Kopirano!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "Več o JSON-LD lahko preberete",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "tukaj",
+        "description": "Label for link to JSON-LD website."
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "Средство просмотра JSON-LD",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "Копировать",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "Скопировано!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "Вы можете узнать больше о JSON-LD",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "здесь",
+        "description": "Label for link to JSON-LD website."
+    }
+}

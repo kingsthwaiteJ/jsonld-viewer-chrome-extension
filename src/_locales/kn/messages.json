@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD ವೀಕ್ಷಕ",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "ನಕಲು ಮಾಡಿ",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "ನಕಲು ಮಾಡಲಾಗಿದೆ!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "ನೀವು JSON-LD ಕುರಿತು ಇನ್ನಷ್ಟು ಓದಬಹುದು",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "ಇಲ್ಲಿ",
+        "description": "Label for link to JSON-LD website."
+    }
+}

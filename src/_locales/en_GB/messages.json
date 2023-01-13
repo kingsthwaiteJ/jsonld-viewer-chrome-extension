@@ -1,0 +1,30 @@
+{
+    "extName": {
+        "message": "JSON-LD Viewer",
+        "description": "Extension name."
+    },
+    "extDescription": {
+        "message": "View the JSON-LD content of the active webpage.",
+        "description": "Extension description."
+    },
+    "copy": {
+        "message": "Copy",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "Copied!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "You can read more about JSON-LD",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "here",
+        "description": "Label for link to JSON-LD website."
+    },
+    "jsonldNotAvailable": {
+        "message": "JSON-LD is not available on this page.",
+        "description": "Message to display when JSON-LD content is not available on the active webpage."
+    }
+}

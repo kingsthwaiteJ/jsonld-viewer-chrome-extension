@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD 查看器",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "复制",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "复制！",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "您可以阅读有关 JSON-LD 的更多信息",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "这里",
+        "description": "Label for link to JSON-LD website."
+    }
+}

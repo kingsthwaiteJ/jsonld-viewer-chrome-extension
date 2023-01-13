@@ -1,11 +1,8 @@
 const mix = require('laravel-mix');
 
 mix.setPublicPath('./dist')
-    .copy('public/icons/jsonld-logo-16x16.png', 'dist/icons/jsonld-logo-16x16.png')
-    .copy('public/icons/jsonld-logo-24x24.png', 'dist/icons/jsonld-logo-24x24.png')
-    .copy('public/icons/jsonld-logo-32x32.png', 'dist/icons/jsonld-logo-32x32.png')
-    .copy('public/icons/jsonld-logo-48x48.png', 'dist/icons/jsonld-logo-48x48.png')
-    .copy('public/icons/jsonld-logo-128x128.png', 'dist/icons/jsonld-logo-128x128.png')
+    .copy('public/icons', 'dist/icons')
+    // .copy('src/_locales', 'dist/_locales')
     .copy('src/manifest.json', 'dist/manifest.json')
     .copy('src/onboarding.html', 'dist/onboarding.html')
     .copy('src/popup.html', 'dist/popup.html')

@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD peržiūros priemonė",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "Kopijuoti",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "Nukopijuota!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "Galite perskaityti daugiau apie JSON-LD",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "čia",
+        "description": "Label for link to JSON-LD website."
+    }
+}

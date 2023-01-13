@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "JSON-LD 검사관",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "복사",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "복사되었습니다!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "JSON-LD에 대해 자세히 알아볼 수 있습니다.",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "여기",
+        "description": "Label for link to JSON-LD website."
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extName": {
+        "message": "JSON-LD ተመልካች",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "ቅዳ",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "ተቀድቷል!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "ስለ JSON-LD የበለጠ ማንበብ ይችላሉ።",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "እዚህ",
+        "description": "Label for link to JSON-LD website."
+    },
+    "jsonldNotAvailable": {
+        "message": "እዚህ",
+        "description": "Message to display when JSON-LD content is not available on the active webpage."
+    }
+}

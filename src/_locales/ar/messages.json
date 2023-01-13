@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "عارض JSON-LD",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "ينسخ",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "نسخ!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "يمكنك قراءة المزيد عن JSON-LD",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "هنا",
+        "description": "Label for link to JSON-LD website."
+    }
+}

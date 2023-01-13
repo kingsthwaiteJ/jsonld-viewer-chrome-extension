@@ -1,0 +1,22 @@
+{
+    "extName": {
+        "message": "نمایشگر JSON-LD",
+        "description": "Extension name."
+    },
+    "copy": {
+        "message": "کپی 🀄",
+        "description": "Copy keyword used for copy button."
+    },
+    "copied": {
+        "message": "کپی شده!",
+        "description": "Message to display when the user has copied the JSON-LD content."
+    },
+    "readMore": {
+        "message": "می توانید درباره JSON-LD بیشتر بخوانید",
+        "description": "More information message."
+    },
+    "jsonldLink": {
+        "message": "اینجا",
+        "description": "Label for link to JSON-LD website."
+    }
+}
