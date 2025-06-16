@@ -2,10 +2,11 @@
 @import "./button.scss";
 @import "./font.scss";
 @import "./format.scss";
+@import "./tab.scss";
 
 html {
-    min-width: 250px;
-    min-height: 100px;
+    min-width: 300px;
+    min-height: 160px;
 }
 
 body {

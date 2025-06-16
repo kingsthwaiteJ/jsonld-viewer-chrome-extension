@@ -7,17 +7,41 @@
 	</head>
 	<body>
 		<h1 class="is-centered">JSON-LD Viewer</h1>
-		<div id="jsonld-viewer-container">
-			<div id="jsonld-viewer"></div>
+
+		<!-- Tab links -->
+		<div class="tab">
+			<button class="tablinks">JSON-LD</button>
+			<button class="tablinks">Microdata</button>
+			<button class="tablinks">Metadata</button>
 		</div>
-		<script src="js/popup.js"></script>
-		<div id="buttonContainer" class="is-centered has-padding-large">
-			<button id="copyToClipboard" class="is-primary">
-				Copy JSON-LD <i class="fa-solid fa-clipboard"></i>
-			</button>
+		
+		<!-- Tab content -->
+		<div id="JSON-LD" class="tabcontent">
+			<div id="jsonld-viewer-container">
+				<div id="jsonld-viewer"></div>
+			</div>
+			<script src="js/popup.js"></script>
+			<div id="buttonContainer" class="is-centered has-padding-large">
+				<button id="copyToClipboard" class="is-primary">
+					Copy JSON-LD <i class="fa-solid fa-clipboard"></i>
+				</button>
+			</div>
+			<div class="is-centered">
+				<p style="margin-top: 0px; margin-bottom: 10px;">You can read more about JSON-LD <a href="https://json-ld.org/" target="_blank">here</a>.</p>
+			</div>
 		</div>
-		<div class="is-centered">
-			<p style="margin-top: 0px; margin-bottom: 10px;">You can read more about JSON-LD <a href="https://json-ld.org/" target="_blank">here</a>.</p>
+		
+		<div id="Microdata" class="tabcontent">
+			<h3>Microdata</h3>
+		</div>
+		
+		<div id="Metadata" class="tabcontent">
+			<h3>Metadata</h3>
+		</div>
+		
+		<div id="Settings" class="tabcontent">
+			<h3>Settings</h3>
+			<a href="https://www.buymeacoffee.com/kingsthwaiteJ" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 		</div>
 	</body>
 </html>

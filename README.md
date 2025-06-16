@@ -147,6 +147,7 @@ You can then browse through the content using the embedded JSON viewer, or copy 
 
 - View the JSON-LD of the active webpage cleanly ✅
 - Copy the JSON-LD of the activer webpage ✅
+- Add support for [microdata](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata) and [RDFa](https://rdfa.info/)
 - Add welcome page that opens on extension install
 - Localisation + Internationalisation
 - Links from JSON-LD content to JSON-LD definitions
@@ -190,7 +191,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Thank you to the following package owners:
 
 * [Font Awesome](https://fontawesome.com) for providing their awesome icons
 * [json-viewer-js](https://www.npmjs.com/package/json-viewer-js) for creating and maintaining an awesome JSON viewer

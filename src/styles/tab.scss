@@ -1,0 +1,62 @@
+@use "./variables" as vars;
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    width: 100% !important;
+
+    button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 4px 8px;
+        transition: 0.3s;
+        border-radius: 0px;
+        width: calc(100% / 3);
+        margin: vars.$marginless;
+    }
+}
+
+.tabcontent {
+    display: none;
+    padding: vars.$margin vars.$margin-large;
+    border-top: none;
+
+    &.is-active {
+        display: block;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .tab {
+        background-color: $tundora;
+
+        button {
+            &:hover {
+                background-color: $scorpion;
+            }
+    
+            &.is-active {
+                background-color: $emperor;
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .tab {
+        background-color: $alabaster;
+
+        button {
+            &:hover {
+                background-color: #ddd;
+            }
+    
+            &.is-active {
+                background-color: #ccc;
+            }
+        }
+    }
+}
